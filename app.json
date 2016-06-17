@@ -1,0 +1,35 @@
+{
+  "name": "lettertray",
+  "scripts": {
+  },
+  "env": {
+    "ALGOLIASEARCH_API_KEY": {
+      "required": true
+    },
+    "ALGOLIASEARCH_API_KEY_SEARCH": {
+      "required": true
+    },
+    "ALGOLIASEARCH_APPLICATION_ID": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "cloudsponge",
+    "easysms",
+    "herokuconnect",
+    "hostedgraphite",
+    "newrelic",
+    "pointdns",
+    "pubnub",
+    "rediscloud",
+    "heroku-redis",
+    "sendgrid"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
